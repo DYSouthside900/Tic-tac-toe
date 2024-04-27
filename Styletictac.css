@@ -1,0 +1,22 @@
+html, body{
+    height:100%
+}
+body{
+    display:flex;
+    align-items:  center;
+    justify-content: center;
+    
+}
+#gameBoard{
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+#gameBoard .cell{
+    border: 1px solid black;
+    display: inline-block;
+    height:4rem;
+    width:4rem;
+}
+    
+
